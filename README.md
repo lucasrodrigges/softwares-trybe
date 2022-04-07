@@ -1,1 +1,1 @@
-#Programas necessários para cursar na trybe | Versão Linux
+# Programas necessários para cursar na trybe | Versão Linux
