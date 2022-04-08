@@ -31,7 +31,7 @@ Se ele não retornar a versão instalada é porque não há suporte flatpak.
 
 **Se já houver suporte flatpak, utilize o comando:**
 ```
-sudo curl https://github.com/lucas-rodrigges/linux-softwares-trybe/blob/main/install-non-flatpak-support.sh | bash 
+/bin/bash -c "$(curl -fsSL https://github.com/lucas-rodrigges/linux-softwares-trybe/blob/main/install-non-flatpak-support.sh)"
 ```
 
 **Caso contrário, utilize este:**
