@@ -23,20 +23,8 @@ sudo apt upgrade
 ```
 sudo apt install curl
 ```
-**Agora você precisa saber se tem o suporte flatpak instalado usando:**
-```
-flatpak --version
-```
-Se ele não retornar a versão instalada é porque não há suporte flatpak.
-
-**Se já houver suporte flatpak, utilize o comando:**
-```
-cd Downloads
-wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install-non-flatpak-support.sh && chmod +x install-non-flatpak-support.sh && sudo ./install-non-flatpak-support.sh
-
-```
 **Caso contrário, utilize este:**
 
 ````
 cd Downloads
-wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install.sh && chmod +x install-non-flatpak-support.sh && sudo ./install.sh
+wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
