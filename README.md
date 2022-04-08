@@ -7,7 +7,7 @@ Este script, além de atualizar seu sistema, instalará as seguintes ferramentas
 | Slack        | Google Chrome |
 | GitHub Desktop | node.js (via nvm) |
 | Zoom         | Git           |
-| VSCode.      | 
+| VSCode       | 
 
 # Instruções de instalação:
 
