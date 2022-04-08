@@ -11,7 +11,7 @@ Este script, além de atualizar seu sistema, instalará as seguintes ferramentas
 
 # Instruções de instalação:
 
-**Caso contrário, utilize este:**
+**Utilize o comando:**
 
 ````
 cd Downloads
