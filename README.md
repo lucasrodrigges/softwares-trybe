@@ -17,7 +17,7 @@ sudo apt install curl
 ```
 Agora você precisa saber se tem o suporte flatpak instalado:
 ```
-
+flatpak --version
 ```
 Se já houver suporte flatpak, utilize o comando:
 ```
