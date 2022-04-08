@@ -11,18 +11,6 @@ Este script, além de atualizar seu sistema, instalará as seguintes ferramentas
 
 # Instruções de instalação:
 
-**Primeiramente vamos atualizar o sistema:**
-``` 
-sudo apt update 
-``` 
-``` 
-sudo apt upgrade 
-``` 
-
-**Você precisará ter o curl instalado em sua máquina:**
-```
-sudo apt install curl
-```
 **Caso contrário, utilize este:**
 
 ````
