@@ -23,9 +23,7 @@ sudo dpkg -i *.deb
 
 ## Installing NodeJS LTS ##
 
-sudo apt install curl -Y
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs
+sudo apt install curl -y && curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt-get install -y nodejs
 
 
 ## Installing Git ##
