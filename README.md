@@ -21,7 +21,7 @@ flatpak --version
 ```
 Se já houver suporte flatpak, utilize o comando:
 ```
-curl https://github.com/lucas-rodrigges/linux-softwares-trybe/blob/main/install(non-flatpak-support).sh | bash 
+curl https://github.com/lucas-rodrigges/linux-softwares-trybe/blob/main/install-non-flatpak-support.sh | bash 
 ```
 
 Caso contrário, utilize este:
