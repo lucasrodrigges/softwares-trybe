@@ -23,7 +23,7 @@ sudo dpkg -i *.deb
 
 ## Installing NodeJS LTS ##
 
-sudo apt install curl -Y
+sudo apt install curl -y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 nvm install 12.18.3  
 
