@@ -1,4 +1,4 @@
-# Script de Instação dos Programas necessários para cursar na Trybe (Versão Linux)
+# Script de instação dos programas necessários para cursar na Trybe (Versão Linux)
 
 Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema.
 
