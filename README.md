@@ -15,7 +15,16 @@ Você precisará ter o curl instalado em sua máquina:
 ```
 sudo apt install curl
 ```
-Em seguida rode o seguinte comando:
+Agora você precisa saber se tem o suporte flatpak instalado:
+```
+
+```
+Se já houver suporte flatpak, utilize o comando:
+```
+curl https://github.com/lucas-rodrigges/linux-softwares-trybe/blob/main/install(non-flatpak-support).sh | bash 
+```
+
+Caso contrário, utilize este:
 
 ````
 curl https://github.com/lucas-rodrigges/linux-softwares-trybe/blob/main/install.sh | bash 
