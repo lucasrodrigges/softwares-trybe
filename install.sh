@@ -25,8 +25,7 @@ sudo dpkg -i *.deb
 
 sudo apt install curl -Y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs
+nvm install 12.18.3  
 
 
 ## Installing Git ##
