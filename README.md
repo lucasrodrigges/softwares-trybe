@@ -1,6 +1,6 @@
 # Script de instação dos programas necessários para cursar na Trybe (Linux)
 
-Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema.
+Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá apenas para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS, mas deve servir para a maioria das distros baseadas em Ubuntu.
 
 | Flatpak Apps | External Apps |
 | -------------|---------------|
@@ -11,7 +11,7 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 
 # Instruções de instalação:
 
-**Utilize o comando:**
+**Abra o terminal (CTRL + ALT + T no Ubuntu | SUPER (TECLA WINDOWS) + T no Pop! OS) e cole o seguinte comando:** 
 
 ```
 cd Downloads
