@@ -8,9 +8,11 @@ sudo rm /var/cache/apt/archives/lock
 
 ## Updating System ##
 
-sudo apt update 
 sudo apt upgrade -y
 
+## Uptading reps ##
+
+sudo apt update 
 
 ## Google Chrome ##
 
@@ -23,7 +25,9 @@ sudo dpkg -i *.deb
 
 ## Installing NodeJS LTS ##
 
-sudo apt install curl -y && curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt-get install -y nodejs
+sudo apt install curl -y
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 
 ## Installing Git ##
@@ -32,12 +36,24 @@ sudo apt-get install git -y
 sudo add-apt-repository ppa:git-core/ppa -y
 
 
+## Repository Softwares ##
+
+sudo apt install flatpak -y
+sudo add-apt-repository ppa:flatpak/stable -y
+sudo apt update -y
+sudo apt install flatpak -y
+sudo apt install gnome-software-plugin-flatpak -y 
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
+
+
 ## Apps Flatpak ##
 
 flatpak install flathub us.zoom.Zoom -y
 flatpak install flathub com.visualstudio.code -y
+flatpak install flathub com.slack.Slack -y
 flatpak install flathub io.github.shiftey.Desktop -y
-flatpak install flathub com.slack.Slack
 
 
-echo "Tudo protno, reinicie sua máquina."
+
+
+echo "Tudo pronto, reinicie seu PC!"
