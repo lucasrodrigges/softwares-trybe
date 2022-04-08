@@ -1,4 +1,4 @@
-# Script de Instação dos Programas necessários para cursar na trybe (Versão Linux)
+# Script de Instação dos Programas necessários para cursar na Trybe (Versão Linux)
 
 Este script, além de atualizar seu sistema, instalará as seguintes ferramentas:
 
