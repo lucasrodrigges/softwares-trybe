@@ -32,13 +32,11 @@ Se ele não retornar a versão instalada é porque não há suporte flatpak.
 **Se já houver suporte flatpak, utilize o comando:**
 ```
 cd Downloads
-wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install-non-flatpak-support.sh && chmod +x install-non-flatpak-support.sh
+wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install-non-flatpak-support.sh && chmod +x install-non-flatpak-support.sh && sudo ./install-non-flatpak-support.sh
+
 ```
-Em seguida: 
-``` 
-sudo ./install-non-flatpak-support.sh
-``` 
 **Caso contrário, utilize este:**
 
 ````
-wget -c https://github.com/lucas-rodrigges/linux-softwares-trybe/blob/main/install.sh
+cd Downloads
+wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install.sh && chmod +x install-non-flatpak-support.sh && sudo ./install.sh
