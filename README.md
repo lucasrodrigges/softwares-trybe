@@ -17,11 +17,4 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 cd Downloads
 wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
-Ao finalizar o script você deverá receber a mensagem "Tudo pronto, reinicie sua máquina". Então reinicie e siga para o último passo.
-
-**Para verificar a instalação do node, nvm, npm e git, rode o comando:**
-
-```
-node -v && nvm -v && npm -v && git --version
-```
-Deverá aparecer quatro resultados.
+Ao finalizar o script você deverá receber a mensagem "Tudo pronto, reinicie sua máquina". Então reinicie e confira se os apps foram instalados.
