@@ -31,6 +31,7 @@ Se ele não retornar a versão instalada é porque não há suporte flatpak.
 
 **Se já houver suporte flatpak, utilize o comando:**
 ```
+cd Downloads
 wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install-non-flatpak-support.sh && chmod +x install-non-flatpak-support.sh
 ```
 Em seguida: 
