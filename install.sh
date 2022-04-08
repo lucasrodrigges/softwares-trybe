@@ -25,10 +25,9 @@ sudo dpkg -i *.deb
 
 sudo apt install curl -y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
-nvm install 12.18.3  
+nvm install 16.14.02
 
-
-## Installing Git ##
+##Installing Git ##
 
 sudo apt-get install git -y
 sudo add-apt-repository ppa:git-core/ppa -y
