@@ -53,7 +53,7 @@ flatpak install flathub com.visualstudio.code -y
 flatpak install flathub io.github.shiftey.Desktop -y
 flatpak install flathub com.slack.Slack
 
-## checking installation ##
+## Checking Installation ##
 
 
 echo "Tudo protno, reinicie sua máquina."
