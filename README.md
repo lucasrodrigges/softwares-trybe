@@ -5,7 +5,7 @@ Este script, além de atualizar seu sistema, instalará as seguintes ferramentas
 | Flatpak Apps | External Apps |
 | -------------|---------------|
 | Slack        | Google Chrome |
-| GitHub Desktop | node.js (via nvm) |
+| Github Desktop | Node JS (via nvm) |
 | Zoom         | Git           |
 | VSCode       | 
 
