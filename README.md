@@ -5,7 +5,6 @@
 Você precisará ter o curl instalado em sua máquina:
 ```
 sudo apt install curl
-
 ```
 Em seguida rode o seguinte comando:
 
