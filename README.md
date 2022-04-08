@@ -1,28 +1,17 @@
 # Script de instação dos programas necessários para cursar na Trybe (Linux)
 
-Este script utilizará o gerenciador de pacotes HomeBrew para instalar alguns alguns aplicativos. 
+Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá apenas para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS, mas deve servir para a maioria das distros baseadas em Ubuntu.
 
-| Brew Apps | External Apps |
+| Flatpak Apps | External Apps |
 | -------------|---------------|
-| Slack        |  Node JS (via nvm) |
-| Github Desktop | 
-| Zoom         |            
+| Slack        | Google Chrome |
+| Github Desktop | Node JS (via nvm) |
+| Zoom         | Git           |
 | VSCode       | 
-| Google Chrome |
-| Git |
 
 # Instruções de instalação:
 
-**Você precisará instalar o HomeBrew:** 
-``` 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-``` 
-
-**Em seguida rode o seguinte comando:**
-```
-brew install wget && wget -c 
-```
-
+**Abra o terminal (CTRL + ALT + T no Ubuntu | SUPER (TECLA WINDOWS) + T no Pop! OS) e cole o seguinte comando:** 
 
 ```
 cd Downloads
