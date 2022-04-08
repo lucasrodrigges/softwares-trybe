@@ -1,6 +1,6 @@
 # Script de Instação dos Programas necessários para cursar na Trybe (Versão Linux)
 
-Este script, além de atualizar seu sistema, instalará as seguintes ferramentas:
+Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema.
 
 | Flatpak Apps | External Apps |
 | -------------|---------------|
