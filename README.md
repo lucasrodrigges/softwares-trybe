@@ -13,6 +13,13 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 
 **Utilize o comando:**
 
-````
+```
 cd Downloads
 wget -c https://raw.githubusercontent.com/lucas-rodrigges/linux-softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
+```
+**Para verificar a instalação do Node, nvm, npm e git, rode o comando:**
+
+```
+node -v && nvm -v && npm -v && git --version
+```
+Deverá aparecer quatro resultados.
