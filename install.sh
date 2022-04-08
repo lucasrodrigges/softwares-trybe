@@ -23,9 +23,12 @@ sudo dpkg -i *.deb
 
 ## Installing NodeJS LTS ##
 
-sudo apt install curl -y
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
-nvm install 16.14.02
+sudo apt install npm -y
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt-get install -y nodejs
+
 
 ## Installing Git ##
 
