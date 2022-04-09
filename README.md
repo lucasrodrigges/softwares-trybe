@@ -53,5 +53,5 @@ Este script utilizará o gerenciador de pacotes HomeBrew para instalar alguns al
 
 **Em seguida, este:**
 ```
-brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./install.sh && ./install.sh
+brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
