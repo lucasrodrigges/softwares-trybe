@@ -26,7 +26,9 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 cd Downloads
 wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
-Ao finalizar o script você deverá receber a mensagem "Tudo pronto, reinicie sua máquina". Então reinicie e confira se os apps foram instalados.
+  * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastanto digitar `y` e teclar `Enter`.  
+  * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apesar digite e tecle `Enter`.  
+  * Ao finalizar o script você deverá receber a mensagem "Tudo pronto, reinicie sua máquina". Então reinicie e confira se as aplicações foram instaladas.
 
 
 
