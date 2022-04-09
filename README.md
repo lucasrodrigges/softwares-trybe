@@ -1,4 +1,14 @@
-# Script de instação dos programas necessários para cursar na Trybe (Linux)
+# Script de instação dos programas necessários para cursar na Trybe (Linux e Mac)
+Os scripts abaixo instalarão os programas que são solicitados pela Trybe durante o curso. Siga o tutorial de acordo com o sistema operacional que você utiliza: 
+
+
+  * [Instruções de Instalação (Linux)](#instruções-de-instalação-linux)
+
+  * [Instruções de Instalação (Mac)](#instruções-de-instalação-mac)
+
+
+## Instruções de instalação (Linux):
+
 
 Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá apenas para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS, mas deve servir para a maioria das distros baseadas em Ubuntu.
 
@@ -9,7 +19,6 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 | Zoom         | Git           |
 | VSCode       | 
 
-# Instruções de instalação:
 
 **Abra o terminal (CTRL + ALT + T no Ubuntu | SUPER (TECLA WINDOWS) + T no Pop! OS) e cole o seguinte comando:** 
 
@@ -21,7 +30,7 @@ Ao finalizar o script você deverá receber a mensagem "Tudo pronto, reinicie su
 
 
 
-# Script de instação dos programas necessários para cursar na Trybe (Mac)
+## Instruções de instalação (Mac):
 
 Este script utilizará o gerenciador de pacotes HomeBrew para instalar alguns algunas aplicações. 
 
@@ -34,7 +43,6 @@ Este script utilizará o gerenciador de pacotes HomeBrew para instalar alguns al
 | Google Chrome |
 | Git |
 
-# Instruções de instalação:
 
 **Acesse o terminal e instale o HomeBrew copiando o comando:** 
 ``` 
