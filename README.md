@@ -34,7 +34,7 @@ wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/i
 
 ## Instruções de instalação (Mac):
 
-Este script utilizará o gerenciador de pacotes HomeBrew para instalar alguns algunas aplicações. 
+Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas das aplicações. 
 
 | Brew Apps | External Apps |
 | -------------|---------------|
