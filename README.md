@@ -10,7 +10,7 @@ Os scripts abaixo instalarão os programas que são solicitados pela Trybe duran
 ## Instruções de instalação (Linux):
 
 
-Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá apenas para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS, mas deve servir para a maioria das distros baseadas em Ubuntu.
+Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS. Mas deve servir para a maioria das distros baseadas em Ubuntu.
 
 | Flatpak Apps | External Apps |
 | -------------|---------------|
@@ -27,8 +27,8 @@ cd Downloads
 wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
   * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastanto digitar `y` e teclar `Enter`.  
-  * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apesar digite e tecle `Enter`.  
-  * Ao finalizar o script você deverá receber a mensagem "Tudo pronto, reinicie sua máquina". Então reinicie e confira se as aplicações foram instaladas.
+  * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
+  * Ao finalizar o script, você deverá receber a mensagem: "Tudo pronto, reinicie sua máquina". Então reinicie e confira se as aplicações foram instaladas.
 
 
 
