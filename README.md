@@ -50,6 +50,7 @@ Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas d
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ``` 
 
-**Em seguida, este:**````
+**Em seguida, este:**
+```
 brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
