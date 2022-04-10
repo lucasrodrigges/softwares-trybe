@@ -20,7 +20,7 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 | VSCode       | npm           |
 
 
-**Abra o terminal (CTRL + ALT + T no Ubuntu | SUPER (TECLA WINDOWS) + T no Pop! OS) e cole o seguinte comando:** 
+**Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `SUPER (TECLA WINDOWS) + T` no Pop! OS) e cole o seguinte comando:** 
 
 ```
 cd Downloads
@@ -46,12 +46,11 @@ Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas d
 | Git |
 
 
-**Acesse o terminal e instale o HomeBrew copiando o comando:** 
+**Acesse o terminal (`Command + Space`, digite `Terminal` e tecle `Enter`) e instale o HomeBrew copiando o comando:** 
 ``` 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ``` 
 
-**Em seguida, este:**
-```
+**Em seguida, este:**````
 brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
