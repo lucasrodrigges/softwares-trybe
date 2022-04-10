@@ -23,8 +23,7 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 **Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `SUPER (TECLA WINDOWS) + T` no Pop! OS) e cole o seguinte comando:** 
 
 ```
-cd Downloads
-wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
+cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
   * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastanto digitar `y` e teclar `Enter`.  
   * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
