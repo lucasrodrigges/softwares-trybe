@@ -4,7 +4,7 @@ Os scripts abaixo instalarão os programas que são solicitados pela Trybe duran
 
   * [Instruções de Instalação (Linux)](#instruções-de-instalação-linux--ubuntu-based)
 
-  * [Instruções de Instalação (Mac)](#instruções-de-instalação-mac)
+  * [Instruções de Instalação (Mac)](#instruções-de-instalação-macos-1015)
 
 
 ## Instruções de instalação (Linux | Ubuntu-Based):
