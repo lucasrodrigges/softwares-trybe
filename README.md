@@ -2,7 +2,7 @@
 Os scripts abaixo instalarão os programas que são solicitados pela Trybe durante o curso. Siga o tutorial de acordo com o sistema operacional que você utiliza: 
 
 
-  * [Instruções de Instalação (Linux)](#instruções-de-instalação-linux-ubuntu-based)
+  * [Instruções de Instalação (Linux)](#instruções-de-instalação-linux--ubuntu-based)
 
   * [Instruções de Instalação (Mac)](#instruções-de-instalação-mac)
 
