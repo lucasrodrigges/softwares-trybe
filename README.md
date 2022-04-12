@@ -21,7 +21,7 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 |              |               |
 
 
-**Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `SUPER (TECLA WINDOWS) + T` no Pop! OS) e cole o seguinte comando:** 
+### Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `SUPER (TECLA WINDOWS) + T` no Pop! OS) e cole o seguinte comando:
 
 ```
 cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
@@ -29,10 +29,29 @@ cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwa
   * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastanto digitar `y` e teclar `Enter`.  
   * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
   
-**Agora instale o Node.js via nvm, npm e git usando:**
+### Agora instale o npm:
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/nvm-install.sh && chmod +x nvm-install.sh && sudo ./nvm-install.sh
+sudo apt install npm -y
 ```
+### O curl:
+```
+sudo apt install curl 
+```
+### Instale o nvm:
+```
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash && 
+```
+### Feche o terminal e abra novamente colando o seguinte comando:
+```
+nvm install --lts
+```
+Ele instalá o node.js via nvm em sua máquina.
+
+### Para confirmar que deu tudo certo, reincie o seu computador e abra o terminal colando:
+```
+nvm -v && npm -v && node -v && git --version
+```
+Ele deverá retornar quatro resultados, informando as versões das respectivas aplicações.
 
 
 
@@ -50,12 +69,12 @@ Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas d
 | Git |
 
 
-**Acesse o terminal (`Command + Space`, digite `Terminal` e tecle `Enter`) e instale o HomeBrew copiando o comando:** 
+### Acesse o terminal (`Command + Space`, digite `Terminal` e tecle `Enter`) e instale o HomeBrew copiando o comando:
 ``` 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ``` 
 
-**Em seguida, este:**
+### Em seguida, este:
 ```
 brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
