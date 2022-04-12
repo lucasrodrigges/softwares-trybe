@@ -21,15 +21,11 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 |              |               |
 
 
-### Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `SUPER (TECLA WINDOWS) + T` no Pop! OS) e cole o seguinte comando:
-
+### Antes de qualquer coisa, devemos atualizar o sistema. Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `Super (Win) + T` no Pop! OS) e cole o seguinte comando:
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
+sudo update && sudo apt upgrade -y
 ```
-  * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastanto digitar `y` e teclar `Enter`.  
-  * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
-  
-### Agora instale o npm:
+### Após finalizar, reinicie o computador e abra novamente o terminar para instalar o npm:
 ```
 sudo apt install npm -y
 ```
@@ -37,21 +33,29 @@ sudo apt install npm -y
 ```
 sudo apt install curl 
 ```
-### Instale o nvm:
+### Então instale o nvm:
 ```
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash && 
 ```
-### Feche o terminal e abra novamente colando o seguinte comando:
+### Feche o terminal e abra novamente colando o seguinte comando para instalar a versão lTS do node.js (via nvm):
 ```
 nvm install --lts
 ```
-Ele instalá o node.js via nvm em sua máquina.
-
-### Para confirmar que deu tudo certo, reincie o seu computador e abra o terminal colando:
+### Para confirmar que deu tudo certo, cole no terminal:
 ```
 nvm -v && npm -v && node -v && git --version
 ```
 Ele deverá retornar quatro resultados, informando as versões das respectivas aplicações.
+
+## Agora precisamos instalar o restante dos aplicativos com o comando:
+
+```
+cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
+```
+  * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastanto digitar `y` e teclar `Enter`.  
+  * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
+  
+
 
 
 
