@@ -15,10 +15,10 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 | From Flatpak | External Apps | From apt |
 | -------------|---------------|--------- |
 | Slack        | Google Chrome | VSCode.  |
-| Github Desktop | Node JS (via nvm) |
-| Zoom         | Git           |
-|              | npm           |
-|              |               |
+| Github Desktop | Node JS (via nvm) |    |
+| Zoom         | Git           |          |
+|              | npm           |          |
+|              |               |          |
 
 
 ### Antes de qualquer coisa, devemos atualizar o sistema. Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `Super (Win) + T` no Pop! OS) e cole o seguinte comando:
