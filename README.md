@@ -46,7 +46,7 @@ nvm -v && npm -v && node -v && git --version
 ```
 Ele deverá retornar quatro resultados, informando as versões das respectivas aplicações.
 
-## Agora precisamos instalar o restante dos aplicativos com o comando:
+### Agora precisamos instalar o restante dos aplicativos com o comando:
 
 ```
 cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
