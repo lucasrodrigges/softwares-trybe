@@ -17,6 +17,4 @@ nvm install --lts
 sudo apt-get install git -y
 sudo add-apt-repository ppa:git-core/ppa -y
 
-## Installing VSCode ##
-
-sudo apt install code
+exit
