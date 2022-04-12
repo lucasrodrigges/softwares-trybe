@@ -20,6 +20,10 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 
 sudo dpkg -i *.deb
 
+## Installing VSCode ##
+
+sudo apt install code
+
 
 ## Flatpak Support##
 
