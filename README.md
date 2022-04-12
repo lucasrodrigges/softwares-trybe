@@ -30,6 +30,11 @@ cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwa
   * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
   * Ao finalizar o script, você deverá receber a mensagem: "Tudo pronto, reinicie sua máquina". Então reinicie e confira se as aplicações foram instaladas.
 
+**Agora instale o Node.js via nvm, npm e git usando:
+```
+cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/nvm-install.sh && chmod +x nvm-install.sh && sudo ./nvm-install.sh
+```
+
 
 
 ## Instruções de instalação (macOS 10.15+):
