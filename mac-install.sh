@@ -14,7 +14,6 @@ brew install --cask slack
 brew install --cask zoom
 brew install --cask visual-studio-code
 brew install git
-brew install --cask github
 
 ## Checking Apps Version ##
 node -v && nvm -v && npm -v && git --version
