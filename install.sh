@@ -35,6 +35,9 @@ nvm install --lts
 sudo apt-get install git -y
 sudo add-apt-repository ppa:git-core/ppa -y
 
+## Installing VSCode ##
+
+sudo apt install code
 
 ## Flatpak Support##
 
@@ -49,7 +52,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ## Apps Flatpak ##
 
 flatpak install flathub us.zoom.Zoom -y
-flatpak install flathub com.visualstudio.code -y
 flatpak install flathub io.github.shiftey.Desktop -y
 flatpak install flathub com.slack.Slack
 
