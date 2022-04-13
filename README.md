@@ -41,9 +41,10 @@ nvm install --lts
 ```
 ### Para confirmar que deu tudo certo, cole no terminal:
 ```
-nvm -v && npm -v && node -v && git --version
+node -v && nvm -v && npm -v && git --version
 ```
-Ele deverá retornar quatro resultados, informando as versões das respectivas aplicações.
+Ele deverá retornar quatro resultados informando as versões das respectivas aplicações como na imagem abaixo:
+
 
 ### Agora precisamos instalar o restante dos aplicativos com o comando:
 
