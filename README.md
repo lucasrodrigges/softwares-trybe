@@ -34,7 +34,7 @@ sudo apt install curl
 ```
 ### Então instale o nvm:
 ```
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash && 
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 ```
 ### Feche o terminal e abra novamente colando o seguinte comando para instalar a versão lTS do node.js (via nvm):
 ```
