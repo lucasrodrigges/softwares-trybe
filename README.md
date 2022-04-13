@@ -64,8 +64,8 @@ Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas d
 
 | Brew Apps | External Apps |
 | ------------- |---------------|
-| Slack         |  Node.js |
-| Git           | npm |
+| Slack         | Node.js |
+| Git           | nvm |
 | Zoom          |            
 | VSCode        | 
 | Google Chrome |
