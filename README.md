@@ -96,3 +96,8 @@ nvm install --lts
 ```
 brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
+## Você confirmar a instalação do nvm, npm, git e Node.js utilizando o comando:
+```
+node -v && nvm -v && npm -v && git --version
+```
+O terminal deverá retornar as versões dos rescpectivos aplicativos.
