@@ -51,7 +51,7 @@ Ele deverá retornar quatro resultados, informando as versões das respectivas a
 ```
 cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
-  * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastanto digitar `y` e teclar `Enter`.  
+  * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastando digitar `y` e teclar `Enter`.  
   * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
   
 
