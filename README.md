@@ -90,7 +90,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
 
-## Agora instale a versão LTS do Node.js utilizando:
+### Agora instale a versão LTS do Node.js utilizando:
 ```
 nvm install --lts
 ``` 
@@ -98,7 +98,7 @@ nvm install --lts
 ```
 brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
-## Você confirmar a instalação do nvm, npm, git e Node.js utilizando o comando:
+### Você confirmar a instalação do nvm, npm, git e Node.js utilizando o comando:
 ```
 node -v && nvm -v && npm -v && git --version
 ```
