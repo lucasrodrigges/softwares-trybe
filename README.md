@@ -88,7 +88,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
 
-## Agora instale a versão lts do node.js utilizando:
+## Agora instale a versão LTS do Node.js utilizando:
 ```
 nvm install --lts
 ``` 
