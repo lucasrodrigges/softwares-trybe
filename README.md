@@ -7,7 +7,7 @@ Os scripts abaixo instalarão os programas que são solicitados pela Trybe duran
   * [Instruções de Instalação (Mac)](#instruções-de-instalação-macos-1015)
 
 
-## Instruções de instalação (Linux | Ubuntu-Based):
+# Instruções de instalação (Linux | Ubuntu-Based):
 
 
 Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS. Mas deve servir para a maioria das distros baseadas em Ubuntu.
@@ -58,7 +58,7 @@ cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwa
 
 
 
-## Instruções de instalação (macOS 10.15+):
+# Instruções de instalação (macOS 10.15+):
 
 Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas das aplicações. 
 
