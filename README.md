@@ -76,8 +76,23 @@ Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas d
 ``` 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ``` 
+### Agora você precisará instalar o nvm, a partir dos seguintes comandos:
+```
+touch ~/.zshrc
+```
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+```
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
 
-### Em seguida, este:
+## Agora instale a versão lts do node.js utilizando:
+```
+nvm install --lts
+``` 
+### A partir daqui você pode instalar o restante dos aplicativos:
 ```
 brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
