@@ -14,9 +14,9 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 
 | From Flatpak | External Apps | From apt |
 | -------------|---------------|--------- |
-| Slack        | Google Chrome | VSCode.  |
-| Github Desktop | Node JS (via nvm) |    |
-| Zoom         | Git           |          |
+| Slack        | Google Chrome | VSCode   |
+| Zoom         | Node JS (via nvm) |      |
+|              | Git           |          |
 |              | npm           |          |
 
 
