@@ -22,7 +22,7 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 
 ### Antes de qualquer coisa, devemos atualizar o sistema. Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `Super (Win) + T` no Pop! OS) e cole o seguinte comando:
 ```
-sudo update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 ### Após finalizar, reinicie o computador e abra novamente o terminar para instalar o npm:
 ```
