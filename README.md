@@ -100,4 +100,7 @@ brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/l
 ```
 node -v && nvm -v && npm -v && git --version
 ```
-O terminal deverá retornar as versões dos rescpectivos aplicativos.
+O terminal deverá retornar as versões dos rescpectivos aplicativos, como na imagem abaixo:
+
+![mac-print](https://user-images.githubusercontent.com/99984705/163253825-88caf0a6-278d-4e7f-983d-cbd3efc64687.png)
+
