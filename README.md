@@ -45,6 +45,8 @@ node -v && nvm -v && npm -v && git --version
 ```
 Ele deverá retornar quatro resultados informando as versões das respectivas aplicações como na imagem abaixo:
 
+![2022-04-13_17-13](https://user-images.githubusercontent.com/99984705/163262647-5701686a-f070-4b81-b547-cc21ab40a9cb.png)
+
 
 ### Agora precisamos instalar o restante dos aplicativos com o comando:
 
