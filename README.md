@@ -63,7 +63,7 @@ cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwa
 Este script utilizará o gerenciador de pacotes HomeBrew para instalar algumas das aplicações. 
 
 | Brew Apps | External Apps |
-| -------------_|---------------|
+| ------------- |---------------|
 | Slack         |  Node.js |
 | Git           | npm |
 | Zoom          |            
