@@ -24,7 +24,7 @@ Este script instalará as versões flatpak de alguns aplicativos, além de atual
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-### Após finalizar, reinicie o computador e abra novamente o terminar para instalar o npm:
+### Após finalizar, reinicie o computador e abra novamente o terminal para instalar o npm:
 ```
 sudo apt install npm -y
 ```
