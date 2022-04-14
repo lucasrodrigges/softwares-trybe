@@ -10,14 +10,16 @@ Os scripts abaixo instalarão os programas que são solicitados pela Trybe duran
 # Instruções de instalação (Linux | Ubuntu-Based):
 
 
-Este script instalará as versões flatpak de alguns aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS. Mas deve servir para a maioria das distros baseadas em Ubuntu.
+Este script instalará os aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS. Mas deve servir para a maioria das distros baseadas em Ubuntu.
 
-| From apt | From Flatpak | External Apps    | 
-|--------- |-------------|------------------ |
-| VSCode   | Slack       | Google Chrome     |
-| Git      | Zoom        | Node.js (via nvm) |
-| npm      |             |                   |
-
+| .deb     | External Apps     | 
+|--------- |------------------ |
+| VSCode   | Node.js (via nvm) |
+| Git      |                   |
+| npm      |                   |
+| SLack    |                   |
+| Zoom     |                   |
+| Google Chrome    |           |
 
 ### Antes de qualquer coisa, devemos atualizar o sistema. Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `Super (Win) + T` no Pop! OS) e cole o seguinte comando:
 ```
