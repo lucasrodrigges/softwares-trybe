@@ -12,7 +12,7 @@ cd /home/$USER/Downloads/Programas
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 sudo dpkg -i *.deb
 
-## Installing VSCode ##
+## VSCode ##
 sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
@@ -21,6 +21,9 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code
+
+## Slack ##
+sudo apt install slack-desktop 
 
 ## Flatpak Support##
 sudo apt install flatpak -y
