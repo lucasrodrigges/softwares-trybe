@@ -28,3 +28,4 @@ sudo apt install code
 
 ## Slack ##
 sudo apt install slack-desktop 
+teste
