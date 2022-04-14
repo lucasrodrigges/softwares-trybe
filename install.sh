@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Removing occasional crashes from apt ##
+## Removendo travas do apt ##
 sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/cache/apt/archives/lock
 
@@ -16,6 +16,9 @@ sudo dpkg -i zoom.deb
 sudo apt-get install -f
 sudo apt install ./zoom.deb
 
+## Slack ##
+sudo apt install slack-desktop 
+
 ## VSCode ##
 sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -25,6 +28,3 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code
-
-## Slack ##
-sudo apt install slack-desktop 
