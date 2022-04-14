@@ -45,7 +45,7 @@ node -v && nvm -v && npm -v && git --version
 ```
 Ele deverá retornar quatro resultados informando as versões das respectivas aplicações como na imagem abaixo:
 
-![2022-04-13_17-13](https://user-images.githubusercontent.com/99984705/163262647-5701686a-f070-4b81-b547-cc21ab40a9cb.png)
+![linux-print](https://github.com/lucas-rodrigges/softwares-trybe/blob/addf0fa1f4245bcc04317ffc853fe167a5a5d977/linux-print.png)
 
 
 ### Agora precisamos instalar o restante dos aplicativos com o comando:
@@ -104,5 +104,5 @@ node -v && nvm -v && npm -v && git --version
 ```
 O terminal deverá retornar as versões dos rescpectivos aplicativos, como na imagem abaixo:
 
-![mac-print](https://user-images.githubusercontent.com/99984705/163253825-88caf0a6-278d-4e7f-983d-cbd3efc64687.png)
+![mac-print](https://github.com/lucas-rodrigges/softwares-trybe/blob/addf0fa1f4245bcc04317ffc853fe167a5a5d977/mac-print.png)
 
