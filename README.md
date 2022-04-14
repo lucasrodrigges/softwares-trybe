@@ -10,7 +10,7 @@ Os scripts abaixo instalarão os programas que são solicitados pela Trybe duran
 # Instruções de instalação (Linux | Ubuntu-Based):
 
 
-Este script instalará os aplicativos, além de atualizar o sistema. Importante ressaltar que ele servirá para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS. Mas deve servir para a maioria das distros baseadas em Ubuntu.
+Este script além de instalar os programass, atualizará o sistema. Importante ressaltar que ele servirá para as distros indicadas pela Trybe: Ubuntu, Xubuntu, Lubuntu ou Pop! OS, mas deve servir para a maioria das distros baseadas em Ubuntu.
 
 | .deb     | External Apps     | 
 |--------- |------------------ |
