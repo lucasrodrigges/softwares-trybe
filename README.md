@@ -15,11 +15,10 @@ Este script instalará os aplicativos, além de atualizar o sistema. Importante 
 | .deb     | External Apps     | 
 |--------- |------------------ |
 | VSCode   | Node.js (via nvm) |
-| Git      |                   |
-| npm      |                   |
-| SLack    |                   |
-| Zoom     |                   |
-| Google Chrome    |           |
+| Slack    | Git               |
+| Zoom     | npm               |
+| Google Chrome |              |
+
 
 ### Antes de qualquer coisa, devemos atualizar o sistema. Abra o terminal (`Ctrl + Alt + T` no Ubuntu | `Super (Win) + T` no Pop! OS) e cole o seguinte comando:
 ```
