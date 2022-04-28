@@ -17,7 +17,7 @@ sudo apt-get install -f
 sudo apt install ./zoom.deb
 
 ## Slack ##
-sudo apt install slack-desktop 
+sudo snap install slack 
 
 ## VSCode ##
 sudo apt-get install wget gpg
