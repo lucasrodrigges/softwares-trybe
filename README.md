@@ -46,13 +46,13 @@ node -v && nvm -v && npm -v && git --version
 ```
 Ele deverá retornar quatro resultados informando as versões das respectivas aplicações como na imagem abaixo:
 
-![linux-print](https://github.com/rodrigues-ls/softwares-trybe/blob/addf0fa1f4245bcc04317ffc853fe167a5a5d977/linux-print.png)
+![linux-print](https://github.com/luucas-r/softwares-trybe/blob/addf0fa1f4245bcc04317ffc853fe167a5a5d977/linux-print.png)
 
 
 ### Agora precisamos instalar o restante dos aplicativos com o comando:
 
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/lucas-rodrigges/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
+cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/softwares-trybe/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
   * Durante o processo, ele irá pedir a sua senha de usuário algumas vezes e/ou autorização bastando digitar `y` e teclar `Enter`.  
   * Note que durante a digitação da senha, o terminal não mostrará nenhuma informação. Apenas digite e tecle `Enter`.  
@@ -97,7 +97,7 @@ nvm install --lts
 ``` 
 ### A partir daqui você pode instalar o restante dos aplicativos:
 ```
-brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/rodrigues-ls/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
+brew install wget && cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/softwares-trybe/main/mac-install.sh && chmod +x ./mac-install.sh && ./mac-install.sh
 ```
 ### Você confirmar a instalação do nvm, npm, git e Node.js utilizando o comando:
 ```
@@ -105,5 +105,5 @@ node -v && nvm -v && npm -v && git --version
 ```
 O terminal deverá retornar as versões dos rescpectivos aplicativos, como na imagem abaixo:
 
-![mac-print](https://github.com/rodrigues-ls/softwares-trybe/blob/addf0fa1f4245bcc04317ffc853fe167a5a5d977/mac-print.png)
+![mac-print](https://github.com/luucas-r/softwares-trybe/blob/addf0fa1f4245bcc04317ffc853fe167a5a5d977/mac-print.png)
 

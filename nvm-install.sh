@@ -10,4 +10,4 @@ nvm install --lts
 sudo apt-get install git -y
 sudo add-apt-repository ppa:git-core/ppa -y
 
-echo "Tudo protno, reinicie sua máquina."
+
