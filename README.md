@@ -106,4 +106,3 @@ node -v && nvm -v && npm -v && git --version
 O terminal deverá retornar as versões dos rescpectivos aplicativos, como na imagem abaixo:
 
 ![mac-print](https://github.com/lucasrodrigges/softwares-trybe/blob/addf0fa1f4245bcc04317ffc853fe167a5a5d977/mac-print.png)
-
